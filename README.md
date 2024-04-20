@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+Documentação do Projeto: Plataforma de Mapeamento Colaborativo para Eventos ao Ar Livre
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Descrição do Projeto:
+O projeto consiste no desenvolvimento de uma aplicação web utilizando as tecnologias React, Node.js e MongoDB. A ideia é criar uma plataforma de mapeamento colaborativo para Comércios. A aplicação permitirá que os organizadores de eventos criem mapas interativos personalizados, destacando locais importantes como seus Comércios. Além disso, os participantes poderão contribuir com informações adicionais, como avaliações dos comércios e comentários sobre os mesmos.
 
-Currently, two official plugins are available:
+Tecnologias Utilizadas:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Frontend: React
+Backend: Node.js
+Banco de Dados: MongoDB
+Funcionalidades Principais:
 
-## Expanding the ESLint configuration
+Criação de Mapas Personalizados: Os organizadores de eventos poderão criar mapas interativos personalizados, destacando seus comércios.
+Contribuições dos Usuários: Os participantes poderão contribuir com informações adicionais, como avaliações, comentários e sugestões de locais de interesse.
+Perfis de Usuários: Os usuários terão perfis individuais com fotos e galerias.
+Sistema de Chat: Os usuários poderão se comunicar através de um sistema de chat integrado.
+Criação de Grupos: Os usuários poderão criar e participar de grupos para se reunirem e interagirem durante o evento.
+Benefícios da Plataforma:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Experiência Interativa: Proporcionará uma experiência mais interativa e envolvente para os participantes dos eventos.
+Feedback em Tempo Real: Permitirá que os organizadores melhorem futuros eventos com base no feedback dos usuários em tempo real.
+Conexão entre Pessoas: Será uma maneira única de conectar pessoas durante eventos ao ar livre.
+Potencial de Receita: Poderá gerar receita através de parcerias com organizadores de eventos, publicidade e vendas de ingressos premium com acesso a recursos exclusivos na aplicação.
+Conclusão:
+A plataforma de mapeamento colaborativo para eventos ao ar livre representa uma solução inovadora para melhorar a experiência dos participantes e dos organizadores de eventos. Ao fornecer informações valiosas em tempo real e promover a interação entre os usuários, a aplicação tem o potencial de se tornar uma ferramenta indispensável para eventos ao ar livre de todos os tipos.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+
